@@ -1,32 +1,37 @@
-html, body {
-  height: 100%;
-  width: 100%;
-
-  background: #8c52ff !important;
-  color: #ffff !important;
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #000000;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.dropdown-item {
-  color: #000 !important;
+
+h1, h2, h3, p {
+    color: #9b7ce4;
 }
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #aa80ff #ddccff;
-  }
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
+figure {
+    color: #9b7ce4;
+    float: right;
+    text-align: center;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ddccff;
-  }
+figcaption {
+    padding: 10px;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #aa80ff;
+a { color: inherit; }
 
-    
-    border: 3px solid #aa80ff;
-  }
+a:hover {
+    color: #c3b1ec;
+}
+
+.inline-link {
+    display: inline;
+    padding: 10px;
+}
+
+.another {
+ color: inherit;
+  padding: 0px;
+}
